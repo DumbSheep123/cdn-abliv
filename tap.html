@@ -2,9 +2,25 @@
 </head>
 <body>
     
-body{width:100%;}
+<style>
+.iframe-container {
+  overflow: hidden;
+  padding-top: 100%;
+  position: relative;
+}
+    
+   .iframe-container iframe {
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+}
+    </style> 
+    
+   <div class="iframe-container"><iframe loading="lazy" src="https://dumbsheep123.github.io/cdn-abliv/logo.svg"></iframe></div>
 
-    <iframe src="https://dumbsheep123.github.io/cdn-abliv/logo.svg"></iframe>
-
+        
 </body>
 </html>
